@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Basic information form
+    </title>
+    <script src="script/baseinfo.js"></script>
+</head>
+<body>
+<h2>HTML Forms</h2>
+<p>this page is basic information page for this project hence it initlize the process .</p>
+<p>please fill the form for details</p>
+<form name="form1" method="POST" onsubmit="return chekinfo()">
+    fill the details<br>
+    Complete Name:<br>
+    <input type="text" id ="name1">
+    <br>
+
+    Age: <br>
+      <select id="age1">
+        <option value="10">Less Then 18 years but less than 1 year</option>
+        <option value="18" selected>More Than 18 years but less than 60 years</option>
+        <option value="60">More Than 60 years but less than 80 years</option>
+        <option value="80">More Than 80 years but less than 100 years</option>
+      </select>
+    <br>
+
+    Proffesion:<br>
+    <select id="prof1">
+        <option value="0">None</option>
+        <option value="1" selected>Others</option>
+        <option value="2">Doctor</option>
+        <option value="3">Freelancer</option>
+        <option value="4">Pensioner</option>
+        <option value="5">Employee</option>
+    </select>
+
+    <br>
+    Residence status:<br>
+    <select id="res1">
+            <option value="0">None</option>
+            <option value="1" selected>Indian</option>
+            <option value="2">N.R.I.</option>
+    </select>
+
+    <br>
+    Type of user:<br>
+    <select id="user1">
+            <option value="0">None</option>
+            <option value="1" selected>Hindu undivided family / Individual</option>
+            <option value="2">Association of peoples</option>
+            <option value="3">Body of individuals</option>
+            <option value="4">Partnership firm / LLP</option>
+            <option value="5">local Authorities / Entity</option>
+            <option value="6">Domestic entity company</option>
+            <option value="7">Foriegn Company</option>
+            <option value="8">Agricultural society / self help group</option>
+            <option value="9">Cooperative society</option>
+        </select>
+    <br>
+    Assesment Year:<br>
+    <select id="yer1">
+            <option value="0">Other</option>
+            <option value="1" selected>2019-2020</option>
+    </select>
+
+    <br>
+    <input type="submit" value="Submit">
+  </form> 
+
+  <p id="p1">
+
+  </p>
+<a href="#" class="button">Next</a>
+</body>
+
+</html>
+
